@@ -31,6 +31,7 @@ func RK(pat string, q int64) *RabinKarp {
 func main() {
 	var n int64
 	var str, pattern string
+
 	fmt.Scan(&n)
 	fmt.Scan(&pattern, &str)
 
